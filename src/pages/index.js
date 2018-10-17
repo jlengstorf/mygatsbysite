@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   {
-    file(relativePath: {eq:"gatsby-icon.png"}) {
+    file(relativePath: {eq:"test.png"}) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_noBase64
